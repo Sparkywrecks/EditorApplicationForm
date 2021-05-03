@@ -1,0 +1,87 @@
+<!HTML>
+<link rel="stylesheet" href="main.css">
+<header>
+  <h1 id="title"> Video editor Application Form </h1>
+  <h3 id="subtitle"> Please allow 5 business days before follow up
+</header>
+<body>
+  <div class="background">
+  <!--Fill in section -->
+  <form id="survey-form">
+    <div class="formsect">
+
+      <label id="name-label" for="name"><p>Name</p></label>
+      <input type="text" placeholder="John Wayne" required id="name" class="inputsect">
+
+      <label id="email-label" for="email"><p id="description">Email</p></label>
+      <input type="email" placeholder="JohnWayne@gmail.com" required id="email" class="inputsect">
+
+      <label id="number-label" for="age"><p>Age</p></label>
+      <input type="number" placeholder="16" required id="number" class="inputsect" min="18" max="100">
+
+      <!--Drop Down section 1-->
+
+      <label id="exp-label" for="exp">
+        <p> Level of experience</p>  </label>
+      <select id="dropdown" placeholder="" required id="exp" class="inputsect">
+        <option disabled selected value> Please select your level of experience </option>
+        <option> Just Starting </option>
+        <option> Beginner </option>
+        <option> Moderate </option>
+        <option> I do this for a Living </option>
+        </select>
+        <!--Multiple choice section -->
+
+          <p> How would you like payments to accrue? </p>
+          <label class="radio-label">
+            <input value="Per Hour" name="payment" type="radio" class="input-radio"> Per Hour
+          </label>
+          <label class="radio-label">
+          <input value="Per Video" name="payment" type="radio" class="input-radio"> Per Video
+          </label>
+          <label class="radio-label">
+          <input value="View Based" name="payment" type="radio" class="input-radio"> View Based
+          </label>
+
+          <!--Drop Down section 2-->
+
+      <label id="contact-label" for="contact">
+        <p> Contact Preference</p>  </label>
+      <select id="dropdown" placeholder="" required id="contact" class="inputsect">
+        <option disabled selected value> Please select your prefered form of contact </option>
+        <option> Discord </option>
+        <option> Twitter </option>
+        <option> Email </option>
+        <option> Cell phone </option>
+        </select>
+
+        <!--Checkbox form -->
+
+          <p id=selectlabel> What types of Video have you worked on previously<i> <h6> (Select all that apply) </i> </p></h6>
+         <label id="selectall"> <h5>
+           <input name="created" value="montage" type="checkbox" class="input-checkbox"> Montage </h5> </label>
+         <label id="selectall"> <h5>
+           <input name="created" value="vlog" type="checkbox" class="input-checkbox"> Vlog style </h5></label>
+           <label id="selectall"> <h5>
+           <input name="created" value="musicvideo" type="checkbox" class="input-checkbox"> Music video </h5></label>
+           <label id="selectall"> <h5>
+           <input name="created" value="animation" type="checkbox" class="input-checkbox"> Animation </h5></label>
+            <label id="selectall"> <h5>
+           <input name="created" value="highlights" type="checkbox" class="input-checkbox"> Channel Highlights </h5></label>
+            <label id="selectall"> <h5>
+           <input name="created" value="lyric" type="checkbox" class="input-checkbox"> Lyric video </h5></label>
+            <label id="selectall"> <h5>
+           <input name="created" value="product" type="checkbox" class="input-checkbox"> Product Review </h5></label>
+            <label id="selectall"> <h5>
+           <input name="created" value="unboxing" type="checkbox" class="input-checkbox"> Unboxing Q&A video </h5></label>
+              <label id="selectall"> <h5>
+           <input name="created" value="Q&A" type="checkbox" class="input-checkbox"> Q&A Videos </h5></label>
+    <!--Open text box-->
+            <div> <p id=commentlabel>Please use space below to add any extra information you think would help us in our decision </p>
+           <textarea id="extrainfo" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea> </div>
+    <div>
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+</body>

@@ -1,0 +1,113 @@
+header{
+  text-align:center;
+  font-family: sans-serif;
+  font-style: oblique;
+
+}
+body{
+  background-image:url(https://www.nyfa.edu/img/program/digital_editing_main_1400x500_3.jpg?v=2.0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(152, 66, 211, 0.63);
+  font-family: helvetica;
+  font-style: oblique;
+  font-size: 1.3em;
+  }
+div.background {
+
+}
+div.formsect {
+  margin: auto;
+  background-color: #ffffff;
+  border: 3px solid black;
+  border-radius: 4px;
+  opacity: 0.7;
+  width: 35%;
+  box-shadow: 10px 10px 5px black;
+
+}
+div.formsect p {
+  color: black;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 1px;
+  margin-left: 20%;
+}
+
+
+
+label{
+
+}
+.name-label{
+  text-align: left;
+
+
+}
+#dropdown{display: block;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-left: 23%;}
+
+input.inputsect[type=text], input[type=number], input[type=email]{
+  display: block;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-left: 23%;
+
+
+}
+.radio-label{
+    display: block;
+  text-align: center;
+    padding-top: 10px;
+  margin-left: -88px;
+
+}
+#contact-label p {
+  padding-left: px;
+  margin-left: 30%;
+  margin-right: ;
+}
+#selectlabel{
+  text-align: center;
+  margin-left: auto;
+}
+#selectall{
+  display: block;
+  text-align: center;
+}
+h6{
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: -30px;
+}
+#commentlabel{
+  text-align: center;
+  margin: auto;
+  padding-left: 5px;
+}
+#extrainfo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid ;
+  border-radius: 4px;
+  font-size: 1.4em;
+  }
+#submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
